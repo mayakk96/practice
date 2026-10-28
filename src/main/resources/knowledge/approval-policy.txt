@@ -1,0 +1,3 @@
+Fictional educational approval policy, version 1. This document contains no real customer or company policy.
+
+An onboarding case requires both IDENTITY_PROOF and ADDRESS_PROOF documents before approval. Documents are fictional metadata references, never actual identity files. A reviewer first moves CREATED to DOCUMENTS_PENDING, then UNDER_REVIEW. CREATED cannot jump directly to COMPLETED. UNDER_REVIEW can move to APPROVED only after the required documents and a risk screening result are present. HIGH risk cases cannot be approved. A case in APPROVED may move to COMPLETED. REJECTED and COMPLETED are terminal statuses. The application enforces these rules in its service-layer transition policy, independently of any model answer.

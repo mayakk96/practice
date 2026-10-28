@@ -1,0 +1,3 @@
+Fictional educational risk screening guide, version 1. This is a software demonstration, not a real financial risk assessment.
+
+Risk screening is performed through a reusable downstream HTTP client wrapper. The wrapper sends only a fictional case identifier and uses bounded connection and response timeouts. Retry transient network failures, selected server failures, and rate limits with capped exponential backoff. Do not retry invalid 400-level client requests. Reuse a stable idempotency key across attempts so repeated requests do not repeat a downstream side effect. A screening outage must not silently approve an onboarding case. A HIGH risk result blocks approval; LOW and MEDIUM risk results may proceed only when all other requirements are satisfied.
