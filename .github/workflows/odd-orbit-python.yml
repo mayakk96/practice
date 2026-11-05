@@ -1,0 +1,44 @@
+name: Odd Orbit Python checks
+
+on:
+  push:
+    paths:
+      - 'odd-orbit/**'
+      - '.github/workflows/odd-orbit-python.yml'
+  pull_request:
+    paths:
+      - 'odd-orbit/**'
+      - '.github/workflows/odd-orbit-python.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: '**/requirements.txt'
+      - name: Locate project
+        id: project
+        shell: bash
+        run: |
+          if [ -f odd-orbit/app.py ]; then
+            echo 'directory=odd-orbit' >> "$GITHUB_OUTPUT"
+          elif [ -f app.py ]; then
+            echo 'directory=.' >> "$GITHUB_OUTPUT"
+          else
+            echo 'Odd Orbit application was not found.' >&2
+            exit 1
+          fi
+      - name: Install dependencies
+        working-directory: ${{ steps.project.outputs.directory }}
+        run: python -m pip install -r requirements.txt
+      - name: Run tests
+        working-directory: ${{ steps.project.outputs.directory }}
+        run: python -m unittest discover -s tests -v

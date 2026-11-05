@@ -1,0 +1,13 @@
+.git
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.env
+instance
+work
+dist
+*.zip
+node_modules
+.DS_Store

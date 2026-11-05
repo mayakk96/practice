@@ -1,0 +1,895 @@
+[
+  {
+    "id": "orbit-club-tee",
+    "name": "Orbit Club Tee",
+    "category": "shirts",
+    "color": "Lilac",
+    "hex": "#B7A1E2",
+    "price": 3800,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Bestseller",
+    "image": "/static/assets/products/orbit-club-tee.svg",
+    "stock": {
+      "S": 8,
+      "M": 11,
+      "L": 14,
+      "XL": 17
+    }
+  },
+  {
+    "id": "cloud-nine-hoodie",
+    "name": "Cloud Nine Hoodie",
+    "category": "hoodies",
+    "color": "Seafoam",
+    "hex": "#A8CBB6",
+    "price": 8400,
+    "description": "For the wonderfully out of the ordinary. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Bestseller",
+    "image": "/static/assets/products/cloud-nine-hoodie.svg",
+    "stock": {
+      "S": 15,
+      "M": 18,
+      "L": 0,
+      "XL": 24
+    }
+  },
+  {
+    "id": "solar-shell-jacket",
+    "name": "Solar Shell Jacket",
+    "category": "jackets",
+    "color": "Apricot",
+    "hex": "#EFB394",
+    "price": 12800,
+    "description": "An easy layer for your next little detour. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/solar-shell-jacket.svg",
+    "stock": {
+      "S": 22,
+      "M": 25,
+      "L": 9,
+      "XL": 12
+    }
+  },
+  {
+    "id": "offbeat-tee",
+    "name": "Offbeat Tee",
+    "category": "shirts",
+    "color": "Butter",
+    "hex": "#EBD78A",
+    "price": 4200,
+    "description": "Good energy, easy fit, endless possibilities. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/offbeat-tee.svg",
+    "stock": {
+      "S": 10,
+      "M": 13,
+      "L": 16,
+      "XL": 19
+    }
+  },
+  {
+    "id": "good-weird-tee",
+    "name": "Good Weird Tee",
+    "category": "shirts",
+    "color": "Rosewater",
+    "hex": "#E9ADBC",
+    "price": 3800,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/good-weird-tee.svg",
+    "stock": {
+      "S": 17,
+      "M": 0,
+      "L": 23,
+      "XL": 26
+    }
+  },
+  {
+    "id": "moonbeam-tee",
+    "name": "Moonbeam Tee",
+    "category": "shirts",
+    "color": "Chalk",
+    "hex": "#E9E5DA",
+    "price": 3600,
+    "description": "For the wonderfully out of the ordinary. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/moonbeam-tee.svg",
+    "stock": {
+      "S": 24,
+      "M": 8,
+      "L": 11,
+      "XL": 14
+    }
+  },
+  {
+    "id": "static-bloom-tee",
+    "name": "Static Bloom Tee",
+    "category": "shirts",
+    "color": "Cornflower",
+    "hex": "#9EB9E2",
+    "price": 4200,
+    "description": "An easy layer for your next little detour. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/static-bloom-tee.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "soft-signal-tee",
+    "name": "Soft Signal Tee",
+    "category": "shirts",
+    "color": "Sage",
+    "hex": "#A6B9A1",
+    "price": 3800,
+    "description": "Good energy, easy fit, endless possibilities. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/soft-signal-tee.svg",
+    "stock": {
+      "S": 0,
+      "M": 22,
+      "L": 25,
+      "XL": 9
+    }
+  },
+  {
+    "id": "planet-people-tee",
+    "name": "Planet People Tee",
+    "category": "shirts",
+    "color": "Clementine",
+    "hex": "#EBA075",
+    "price": 4400,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/planet-people-tee.svg",
+    "stock": {
+      "S": 26,
+      "M": 10,
+      "L": 13,
+      "XL": 16
+    }
+  },
+  {
+    "id": "slow-motion-tee",
+    "name": "Slow Motion Tee",
+    "category": "shirts",
+    "color": "Ink",
+    "hex": "#444851",
+    "price": 3600,
+    "description": "For the wonderfully out of the ordinary. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/slow-motion-tee.svg",
+    "stock": {
+      "S": 14,
+      "M": 17,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "cosmic-doodle-tee",
+    "name": "Cosmic Doodle Tee",
+    "category": "shirts",
+    "color": "Pistachio",
+    "hex": "#C4CE9D",
+    "price": 4200,
+    "description": "An easy layer for your next little detour. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Bestseller",
+    "image": "/static/assets/products/cosmic-doodle-tee.svg",
+    "stock": {
+      "S": 21,
+      "M": 24,
+      "L": 8,
+      "XL": 11
+    }
+  },
+  {
+    "id": "frequency-tee",
+    "name": "Frequency Tee",
+    "category": "shirts",
+    "color": "Ice Blue",
+    "hex": "#B9D1DC",
+    "price": 4000,
+    "description": "Good energy, easy fit, endless possibilities. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/frequency-tee.svg",
+    "stock": {
+      "S": 0,
+      "M": 12,
+      "L": 15,
+      "XL": 18
+    }
+  },
+  {
+    "id": "out-there-tee",
+    "name": "Out There Tee",
+    "category": "shirts",
+    "color": "Orchid",
+    "hex": "#C39CBF",
+    "price": 3800,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/out-there-tee.svg",
+    "stock": {
+      "S": 16,
+      "M": 19,
+      "L": 22,
+      "XL": 25
+    }
+  },
+  {
+    "id": "daydream-dept-tee",
+    "name": "Daydream Dept. Tee",
+    "category": "shirts",
+    "color": "Sand",
+    "hex": "#D5C2A4",
+    "price": 4200,
+    "description": "For the wonderfully out of the ordinary. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/daydream-dept-tee.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "little-chaos-tee",
+    "name": "Little Chaos Tee",
+    "category": "shirts",
+    "color": "Bubblegum",
+    "hex": "#DE90A7",
+    "price": 4000,
+    "description": "An easy layer for your next little detour. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/little-chaos-tee.svg",
+    "stock": {
+      "S": 11,
+      "M": 14,
+      "L": 17,
+      "XL": 0
+    }
+  },
+  {
+    "id": "alternate-reality-tee",
+    "name": "Alternate Reality Tee",
+    "category": "shirts",
+    "color": "Oat",
+    "hex": "#E4DBBF",
+    "price": 4400,
+    "description": "Good energy, easy fit, endless possibilities. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/alternate-reality-tee.svg",
+    "stock": {
+      "S": 18,
+      "M": 21,
+      "L": 24,
+      "XL": 8
+    }
+  },
+  {
+    "id": "happy-accident-tee",
+    "name": "Happy Accident Tee",
+    "category": "shirts",
+    "color": "Matcha",
+    "hex": "#8CA281",
+    "price": 3800,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/happy-accident-tee.svg",
+    "stock": {
+      "S": 25,
+      "M": 9,
+      "L": 12,
+      "XL": 15
+    }
+  },
+  {
+    "id": "neon-nap-tee",
+    "name": "Neon Nap Tee",
+    "category": "shirts",
+    "color": "Lemon",
+    "hex": "#D8D569",
+    "price": 4200,
+    "description": "For the wonderfully out of the ordinary. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/neon-nap-tee.svg",
+    "stock": {
+      "S": 13,
+      "M": 16,
+      "L": 0,
+      "XL": 22
+    }
+  },
+  {
+    "id": "future-friend-tee",
+    "name": "Future Friend Tee",
+    "category": "shirts",
+    "color": "Cloud Blue",
+    "hex": "#A8BDD0",
+    "price": 3800,
+    "description": "An easy layer for your next little detour. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/future-friend-tee.svg",
+    "stock": {
+      "S": 20,
+      "M": 23,
+      "L": 26,
+      "XL": 10
+    }
+  },
+  {
+    "id": "orbit-archive-tee",
+    "name": "Orbit Archive Tee",
+    "category": "shirts",
+    "color": "Washed Black",
+    "hex": "#555254",
+    "price": 4600,
+    "description": "Good energy, easy fit, endless possibilities. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/orbit-archive-tee.svg",
+    "stock": {
+      "S": 8,
+      "M": 11,
+      "L": 14,
+      "XL": 17
+    }
+  },
+  {
+    "id": "zero-gravity-tee",
+    "name": "Zero Gravity Tee",
+    "category": "shirts",
+    "color": "Snow",
+    "hex": "#F0EEE5",
+    "price": 4000,
+    "description": "A little space for your everyday adventures. An easygoing unisex tee with a relaxed silhouette, dropped shoulders, a soft ribbed crew neck, and an original Odd Orbit front print.",
+    "material": "100% combed cotton \u00b7 220 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/zero-gravity-tee.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "slow-club-hoodie",
+    "name": "Slow Club Hoodie",
+    "category": "hoodies",
+    "color": "Lilac Haze",
+    "hex": "#B5A0CD",
+    "price": 8800,
+    "description": "For the wonderfully out of the ordinary. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/slow-club-hoodie.svg",
+    "stock": {
+      "S": 22,
+      "M": 25,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "dream-state-hoodie",
+    "name": "Dream State Hoodie",
+    "category": "hoodies",
+    "color": "Buttercream",
+    "hex": "#DECE9A",
+    "price": 8200,
+    "description": "An easy layer for your next little detour. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/dream-state-hoodie.svg",
+    "stock": {
+      "S": 10,
+      "M": 13,
+      "L": 16,
+      "XL": 19
+    }
+  },
+  {
+    "id": "satellite-hoodie",
+    "name": "Satellite Hoodie",
+    "category": "hoodies",
+    "color": "Denim Blue",
+    "hex": "#819DB5",
+    "price": 8800,
+    "description": "Good energy, easy fit, endless possibilities. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/satellite-hoodie.svg",
+    "stock": {
+      "S": 0,
+      "M": 20,
+      "L": 23,
+      "XL": 26
+    }
+  },
+  {
+    "id": "soft-landing-hoodie",
+    "name": "Soft Landing Hoodie",
+    "category": "hoodies",
+    "color": "Pink Clay",
+    "hex": "#CDA59E",
+    "price": 8400,
+    "description": "A little space for your everyday adventures. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/soft-landing-hoodie.svg",
+    "stock": {
+      "S": 24,
+      "M": 8,
+      "L": 11,
+      "XL": 14
+    }
+  },
+  {
+    "id": "odd-hours-hoodie",
+    "name": "Odd Hours Hoodie",
+    "category": "hoodies",
+    "color": "Graphite",
+    "hex": "#53595B",
+    "price": 9200,
+    "description": "For the wonderfully out of the ordinary. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Bestseller",
+    "image": "/static/assets/products/odd-hours-hoodie.svg",
+    "stock": {
+      "S": 12,
+      "M": 15,
+      "L": 0,
+      "XL": 21
+    }
+  },
+  {
+    "id": "utopia-hoodie",
+    "name": "Utopia Hoodie",
+    "category": "hoodies",
+    "color": "Pistachio",
+    "hex": "#B8C59E",
+    "price": 8800,
+    "description": "An easy layer for your next little detour. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/utopia-hoodie.svg",
+    "stock": {
+      "S": 19,
+      "M": 22,
+      "L": 25,
+      "XL": 9
+    }
+  },
+  {
+    "id": "afterglow-hoodie",
+    "name": "Afterglow Hoodie",
+    "category": "hoodies",
+    "color": "Tangerine",
+    "hex": "#DE9772",
+    "price": 8600,
+    "description": "Good energy, easy fit, endless possibilities. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/afterglow-hoodie.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "weekend-planet-hoodie",
+    "name": "Weekend Planet Hoodie",
+    "category": "hoodies",
+    "color": "Oat Milk",
+    "hex": "#D9D0B9",
+    "price": 8200,
+    "description": "A little space for your everyday adventures. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/weekend-planet-hoodie.svg",
+    "stock": {
+      "S": 14,
+      "M": 17,
+      "L": 20,
+      "XL": 23
+    }
+  },
+  {
+    "id": "parallel-play-hoodie",
+    "name": "Parallel Play Hoodie",
+    "category": "hoodies",
+    "color": "Dusty Orchid",
+    "hex": "#B49EBA",
+    "price": 9400,
+    "description": "For the wonderfully out of the ordinary. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/parallel-play-hoodie.svg",
+    "stock": {
+      "S": 21,
+      "M": 24,
+      "L": 0,
+      "XL": 11
+    }
+  },
+  {
+    "id": "lucky-loop-hoodie",
+    "name": "Lucky Loop Hoodie",
+    "category": "hoodies",
+    "color": "Leaf",
+    "hex": "#95B29C",
+    "price": 8800,
+    "description": "An easy layer for your next little detour. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/lucky-loop-hoodie.svg",
+    "stock": {
+      "S": 9,
+      "M": 12,
+      "L": 15,
+      "XL": 18
+    }
+  },
+  {
+    "id": "cloud-collector-hoodie",
+    "name": "Cloud Collector Hoodie",
+    "category": "hoodies",
+    "color": "Ice",
+    "hex": "#B4C9CF",
+    "price": 8600,
+    "description": "Good energy, easy fit, endless possibilities. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/cloud-collector-hoodie.svg",
+    "stock": {
+      "S": 16,
+      "M": 19,
+      "L": 22,
+      "XL": 25
+    }
+  },
+  {
+    "id": "warm-signal-hoodie",
+    "name": "Warm Signal Hoodie",
+    "category": "hoodies",
+    "color": "Terracotta",
+    "hex": "#BE8270",
+    "price": 9200,
+    "description": "A little space for your everyday adventures. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/warm-signal-hoodie.svg",
+    "stock": {
+      "S": 23,
+      "M": 0,
+      "L": 10,
+      "XL": 13
+    }
+  },
+  {
+    "id": "super-soft-hoodie",
+    "name": "Super Soft Hoodie",
+    "category": "hoodies",
+    "color": "Marshmallow",
+    "hex": "#E5DED3",
+    "price": 8400,
+    "description": "For the wonderfully out of the ordinary. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/super-soft-hoodie.svg",
+    "stock": {
+      "S": 11,
+      "M": 14,
+      "L": 17,
+      "XL": 20
+    }
+  },
+  {
+    "id": "off-world-hoodie",
+    "name": "Off World Hoodie",
+    "category": "hoodies",
+    "color": "Night Sky",
+    "hex": "#646E85",
+    "price": 9400,
+    "description": "An easy layer for your next little detour. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/off-world-hoodie.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "ripple-effect-hoodie",
+    "name": "Ripple Effect Hoodie",
+    "category": "hoodies",
+    "color": "Watermelon",
+    "hex": "#CD98A0",
+    "price": 9000,
+    "description": "Good energy, easy fit, endless possibilities. A roomy unisex hoodie with a double-layer hood, soft brushed interior, kangaroo pocket, ribbed cuffs, and an original Odd Orbit print.",
+    "material": "80% cotton / 20% recycled polyester \u00b7 380 gsm",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/ripple-effect-hoodie.svg",
+    "stock": {
+      "S": 25,
+      "M": 9,
+      "L": 12,
+      "XL": 15
+    }
+  },
+  {
+    "id": "lunar-track-jacket",
+    "name": "Lunar Track Jacket",
+    "category": "jackets",
+    "color": "Lilac / Ink",
+    "hex": "#A99AC6",
+    "price": 13200,
+    "description": "A little space for your everyday adventures. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "New",
+    "image": "/static/assets/products/lunar-track-jacket.svg",
+    "stock": {
+      "S": 13,
+      "M": 0,
+      "L": 0,
+      "XL": 22
+    }
+  },
+  {
+    "id": "orbit-utility-jacket",
+    "name": "Orbit Utility Jacket",
+    "category": "jackets",
+    "color": "Sage Green",
+    "hex": "#91A88F",
+    "price": 14800,
+    "description": "For the wonderfully out of the ordinary. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/orbit-utility-jacket.svg",
+    "stock": {
+      "S": 20,
+      "M": 23,
+      "L": 26,
+      "XL": 10
+    }
+  },
+  {
+    "id": "daybreak-windbreaker",
+    "name": "Daybreak Windbreaker",
+    "category": "jackets",
+    "color": "Lemon Ice",
+    "hex": "#DAD498",
+    "price": 11800,
+    "description": "An easy layer for your next little detour. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/daybreak-windbreaker.svg",
+    "stock": {
+      "S": 8,
+      "M": 11,
+      "L": 14,
+      "XL": 0
+    }
+  },
+  {
+    "id": "future-field-jacket",
+    "name": "Future Field Jacket",
+    "category": "jackets",
+    "color": "Sandstone",
+    "hex": "#BDAE8F",
+    "price": 14200,
+    "description": "Good energy, easy fit, endless possibilities. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/future-field-jacket.svg",
+    "stock": {
+      "S": 15,
+      "M": 18,
+      "L": 21,
+      "XL": 24
+    }
+  },
+  {
+    "id": "meteor-coach-jacket",
+    "name": "Meteor Coach Jacket",
+    "category": "jackets",
+    "color": "Cloud Blue",
+    "hex": "#9EBCCA",
+    "price": 12400,
+    "description": "A little space for your everyday adventures. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/meteor-coach-jacket.svg",
+    "stock": {
+      "S": 22,
+      "M": 25,
+      "L": 9,
+      "XL": 12
+    }
+  },
+  {
+    "id": "peach-fuzz-jacket",
+    "name": "Peach Fuzz Jacket",
+    "category": "jackets",
+    "color": "Rose / Peach",
+    "hex": "#DBA3A0",
+    "price": 13600,
+    "description": "For the wonderfully out of the ordinary. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/peach-fuzz-jacket.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    "id": "space-walk-jacket",
+    "name": "Space Walk Jacket",
+    "category": "jackets",
+    "color": "Charcoal",
+    "hex": "#555E64",
+    "price": 14800,
+    "description": "An easy layer for your next little detour. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/space-walk-jacket.svg",
+    "stock": {
+      "S": 17,
+      "M": 20,
+      "L": 23,
+      "XL": 26
+    }
+  },
+  {
+    "id": "parallel-lines-jacket",
+    "name": "Parallel Lines Jacket",
+    "category": "jackets",
+    "color": "Mint / Cream",
+    "hex": "#A8C6B7",
+    "price": 13200,
+    "description": "Good energy, easy fit, endless possibilities. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/parallel-lines-jacket.svg",
+    "stock": {
+      "S": 24,
+      "M": 8,
+      "L": 11,
+      "XL": 14
+    }
+  },
+  {
+    "id": "sundown-shell-jacket",
+    "name": "Sundown Shell Jacket",
+    "category": "jackets",
+    "color": "Mango",
+    "hex": "#DEA574",
+    "price": 12800,
+    "description": "A little space for your everyday adventures. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Limited",
+    "image": "/static/assets/products/sundown-shell-jacket.svg",
+    "stock": {
+      "S": 12,
+      "M": 0,
+      "L": 18,
+      "XL": 21
+    }
+  },
+  {
+    "id": "first-light-jacket",
+    "name": "First Light Jacket",
+    "category": "jackets",
+    "color": "Off White",
+    "hex": "#DCD9CA",
+    "price": 13800,
+    "description": "For the wonderfully out of the ordinary. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "",
+    "image": "/static/assets/products/first-light-jacket.svg",
+    "stock": {
+      "S": 19,
+      "M": 22,
+      "L": 25,
+      "XL": 9
+    }
+  },
+  {
+    "id": "cosmic-transit-jacket",
+    "name": "Cosmic Transit Jacket",
+    "category": "jackets",
+    "color": "Dusty Violet",
+    "hex": "#9F91B1",
+    "price": 14400,
+    "description": "An easy layer for your next little detour. A lightweight unisex zip jacket with an easy layering fit, stand collar, chest pockets, and an embroidered Odd Orbit emblem.",
+    "material": "100% recycled nylon shell \u00b7 cotton-blend lining",
+    "fit": "Relaxed unisex fit. Choose your usual size for an easy fit; size up for an oversized look.",
+    "badge": "Sold out",
+    "image": "/static/assets/products/cosmic-transit-jacket.svg",
+    "stock": {
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  }
+]

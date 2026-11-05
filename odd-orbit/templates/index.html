@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d6c7f5">
+  <meta name="description" content="Odd Orbit — unisex tees, hoodies and jackets for your own little universe. Explore 47 colorful, offbeat essentials.">
+  <title>Odd Orbit — Wear your own orbit.</title>
+  <link rel="icon" href="/static/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="/static/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><span>GOOD THINGS COME IN WEIRD PACKAGES</span><span>FREE US SHIPPING ON ORDERS $120+ <b>↗</b></span></div>
+  <header class="site-header">
+    <a class="wordmark" href="/" data-link aria-label="Odd Orbit home"><svg viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="20" rx="18" ry="7" transform="rotate(-35 20 20)"/><circle cx="20" cy="20" r="11"/><circle cx="32" cy="11" r="3"/></svg>odd orbit<span>®</span></a>
+    <nav aria-label="Main navigation"><a href="/shop" data-link>Shop all</a><a href="/shop?category=shirts" data-link>Tees</a><a href="/shop?category=hoodies" data-link>Hoodies</a><a href="/shop?category=jackets" data-link>Jackets</a></nav>
+    <div class="header-actions"><button class="icon-button search-trigger" aria-label="Search products"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m16 16 5 5"/></svg></button><button class="bag-button" id="open-bag" aria-label="Open shopping bag">Bag <span id="bag-count">0</span><svg viewBox="0 0 24 24"><path d="M5 7h14l1 14H4L5 7Z M8 8V6a4 4 0 0 1 8 0v2"/></svg></button><button class="icon-button mobile-menu" aria-label="Toggle navigation" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button></div>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading">Entering your orbit…</div></main>
+  <footer class="site-footer">
+    <div class="footer-top"><div><a href="/" data-link class="wordmark">odd orbit<span>®</span></a><p>Earth clothes. Cosmic energy.<br>Made for every body, in every orbit.</p></div><div><span class="eyebrow">FIND YOUR THING</span><a href="/shop" data-link>All 47 pieces</a><a href="/shop?category=shirts" data-link>Tees</a><a href="/shop?category=hoodies" data-link>Hoodies</a><a href="/shop?category=jackets" data-link>Jackets</a></div><div><span class="eyebrow">LITTLE DETAILS</span><button data-info="size">Size guide</button><button data-info="shipping">Shipping & returns</button><button data-info="about">Our little universe</button></div><div class="newsletter"><span class="eyebrow">LET’S STAY IN ORBIT</span><p>Fresh drops. Occasional weirdness.</p><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required maxlength="254"><button aria-label="Join newsletter">↗</button></form><small id="newsletter-message">A demo store, with a very real sense of style.</small></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Odd Orbit. Stay a little odd.</span><div><button data-info="privacy">Privacy</button><button data-info="terms">Terms</button><span>USD $ · United States</span></div><span class="demo-mark">✳ CONCEPT STORE · DEMO CHECKOUT</span></div>
+  </footer>
+  <dialog id="bag-dialog" class="bag-dialog" aria-labelledby="bag-title"><div class="drawer-head"><h2 id="bag-title">Your little haul <span id="drawer-count"></span></h2><button class="icon-button close-dialog" aria-label="Close bag">✕</button></div><div id="bag-content"></div></dialog>
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="product-title"></dialog>
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><button class="icon-button close-dialog" aria-label="Close information">✕</button><div id="info-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
