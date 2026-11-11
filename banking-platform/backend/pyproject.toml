@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "banking-transaction-platform"
+version = "1.0.0"
+description = "Independent synthetic banking transaction and reconciliation platform"
+requires-python = ">=3.12"
+dependencies = [
+ "fastapi>=0.115,<1", "uvicorn[standard]>=0.34,<1", "sqlalchemy>=2.0.40,<3",
+ "alembic>=1.15,<2", "psycopg[binary]>=3.2,<4", "httpx>=0.28,<1",
+ "python-multipart>=0.0.20,<1", "prometheus-client>=0.21,<1", "kafka-python>=2.2,<3", "mcp>=1.29,<2"
+]
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10", "pytest-cov>=6,<8", "ruff>=0.11,<1"]
+[tool.setuptools.packages.find]
+include = ["app*"]
+[tool.setuptools.package-data]
+app = ["runbooks/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["postgres: requires TEST_DATABASE_URL PostgreSQL", "kafka: requires Kafka broker"]
+[tool.ruff]
+line-length = 110
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"alembic/env.py" = ["F401"]

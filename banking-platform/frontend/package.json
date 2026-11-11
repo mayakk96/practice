@@ -1,0 +1,23 @@
+{
+  "name": "banking-operations-console",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/*.test.js",
+    "test:browser": "node tests/browser-smoke.cjs"
+  },
+  "dependencies": {
+    "json-bigint": "1.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.1.0",
+    "playwright": "1.62.1",
+    "vite": "7.2.2"
+  }
+}

@@ -1,0 +1,24 @@
+# One payment from receipt to reconciliation
+
+Run `python3 scripts/demo_end_to_end.py` with Compose, or append `--no-auth` in loopback demo mode. It creates synthetic accounts and a USD 500.00 transaction (`amountMinor=50000`), plus supporting successful/declined/reversed cases. The script prints real UUIDs for inspection.
+
+1. `app/main.py` receives `POST /api/transactions`, establishes the request ID, enforces operator access and validates the request contract. Money must be an integer; currency and references are bounded.
+2. `TransactionService.create` in `app/transactions.py` normalizes the request and fingerprints its complete business meaning. The mandatory `Idempotency-Key` identifies this accepted submission.
+3. A SQLAlchemy transaction claims that unique key, validates the synthetic active source account/currency, creates `FinancialTransaction`, and appends its initial `TransactionHistory` entry. A repeated identical request returns the stored original submission response, even after later lifecycle commands change the transaction. A different normalized body under the same key raises `409`.
+4. The service calls `record_event` in `app/events.py` within the same database transaction. A failed commit cannot leave a published event for an uncommitted payment. The HTTP result is `201`; a replay is `200` with a replay indicator.
+5. `POST /api/transactions/{id}/authorize` calls `TransactionService.authorize`. `get_transaction_locked` locks the current row and `PaymentNetworkClient.authorize` receives its stable UUID, amount and currency. The network's `Idempotency-Key` remains the same across bounded retries. A decision advances the lifecycle to `AUTHORIZED` or `DECLINED` with history/event metadata.
+6. `POST /api/transactions/{id}/capture` calls `TransactionService.capture`. The transition must start in `AUTHORIZED`. The capture journal and transaction/history/outbox update commit together. No command simply assigns an arbitrary status.
+7. `POST /api/clearing/records` calls `ClearingService.create` with the captured transaction ID, network reference, exact amount/currency and explicit business date. Clearing validates them and calls the shared `transition` helper to move to `CLEARED`. The CSV path runs the same business validation while retaining row outcomes.
+8. `SettlementService.create` selects bounded eligible cleared transactions of one date/currency. A unique settlement-item membership rejects double inclusion even if batch builders race. The returned totals distinguish debit, credit and signed net amounts.
+9. The script sends `ready`, `submit` and `confirm` commands with each returned batch `version`. `SettlementService` validates the predecessor and version, appends batch history and, on confirmation, calls `ledger_settle` and advances each member to `SETTLED` in the same transaction.
+10. The dispatcher in `app/events.py` later publishes committed banking events. The Kafka consumer records the event ID/fingerprint and updates the analytics snapshot only if its aggregate version is newer. The write API succeeds independently of analytics progress; backlog and source/lag must be visible.
+11. `ReconciliationService.import_records` accepts independent external evidence. `ReconciliationService.create_run` snapshots the date/currency population and stores results. The default demonstration reports USD 450.00 for the USD 500.00 payment and therefore creates an amount mismatch and work item.
+12. The operator uses mismatch/exception endpoints and the read-only incident assistant to collect evidence. `OperationalExceptionService.update` records investigation state and notes under a version check. Financial correction remains a separate explicit process.
+
+## Failure branches to explain
+
+An idempotency unique conflict rolls back before a fresh read of the winner. An external timeout rolls back the authorization command locally but may conceal a remote decision; retry/lookup uses the same stable UUID. A captured reversal appends compensation before clearing. A settled transaction is never deleted; a full refund is a linked child with its own processing lifecycle. Its normalized reason participates in the submission fingerprint and is retained in the child's initial history. A Kafka outage leaves durable pending outbox rows and stale reporting, rather than forcing an unsafe financial rollback.
+
+## Inspect the evidence
+
+Use `GET /api/transactions/{id}`, its paginated `/history`, and the ledger query API described in the generated OpenAPI reference. Compare the transaction UUID, original/refund link, network reference, status version, journal IDs and request IDs. Then inspect the settlement's items/history, reconciliation snapshot/results and exception history. These are different audit views of the same business narrative; none is replaced by a success log line.

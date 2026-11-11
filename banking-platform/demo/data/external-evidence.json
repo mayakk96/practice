@@ -1,0 +1,7 @@
+{
+  "sourceReference": "DEMO-EXTERNAL-2026-11-08",
+  "records": [
+    {"externalReference":"DEMO-portfolio-demo-mismatch","amountMinor":45000,"currency":"USD","status":"SETTLED","businessDate":"2026-11-08","receivedDate":"2026-11-08"},
+    {"externalReference":"DEMO-portfolio-demo-matched","amountMinor":10000,"currency":"USD","status":"SETTLED","businessDate":"2026-11-08","receivedDate":"2026-11-08"}
+  ]
+}
